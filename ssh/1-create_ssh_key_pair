@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-# Define variables
+# Defining variables
 PRIVATE_KEY_NAME="school"
 KEY_SIZE=4096
 KEY_PASSPHRASE="betty"
