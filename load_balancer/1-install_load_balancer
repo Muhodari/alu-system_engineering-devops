@@ -13,8 +13,8 @@ frontend muhodari-frontend
         default_backend muhodari-backend
 backend muhodari-backend
         balance roundrobin
-        server 6172-web-01 18.208.246.44:80 check
-        server 6172-web-02 54.227.15.142:80 check
+        server 6172-web-01 52.91.183.50:80 check
+        server 6172-web-02 35.173.249.172:80 check
 "
 echo "$server_config" | sudo tee -a /etc/haproxy/haproxy.cfg
 
